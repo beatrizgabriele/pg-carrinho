@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    padding: 20px; 
+}
+
+
+.produto {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+
+ 
+.imagens-produto {
+    flex: 1;  
+}
+
+ 
+.imagem-principal {
+    width: 100px;  
+    max-width: 400px; 
+    margin-bottom: 10px;  
+}
+
+ 
+.miniaturas img {
+    width: 70px;  
+    margin-right: 10px;  
+    cursor: pointer;  
+}
+ 
+.detalhes-produto {
+    flex: 1;  
+}
+
+ 
+h2 {
+    color: #333;  
+    margin-bottom: 10px;  
+}
+ 
+.descricao {
+    color: #555; 
+    margin-bottom: 15px;  
+}
+ 
+.preco {
+    color: #e74c3c; 
+    font-size: 24px; 
+    margin-bottom: 20px;  
+}
+
+ 
+.opcoes-compra {
+    display: flex;  
+    flex-direction: column; 
+}
+
+ 
+label {
+    margin-bottom: 5px;  
+    font-weight: bold; 
+}
+
+select {
+    padding: 8px; 
+    margin-bottom: 15px;  
+    border-radius: 5px;  
+    border: 1px solid #ddd;  
+}
+ 
+button {
+    padding: 10px; 
+    background-color: #27ae60;  
+    color: #fff; 
+    border: none;  
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;  
+}
+ 
+button:hover {
+    background-color: #2ecc71;  
+}
+
+ 
+.comentarios {
+    margin-top: 20px;  
+}
+
+ 
+.comentario {
+    display: flex;  
+    align-items: center;  
+    background-color: #fff; 
+    padding: 15px; 
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 10px;  
+}
+ 
+.foto-usuario {
+    width: 50px;  
+    height: 50px; 
+    border-radius: 50%;  
+    margin-right: 15px;  
+}
+ 
+.comentario p {
+    color: #333
+}

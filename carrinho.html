@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYVINYL 💿</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="carrinho.js">
+    <link rel="shotcut icon" href="favicon.ico">
+</head>
+ <main>
+    <section class="carrinho">
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Qualidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Total</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produto Exemplo 1</td>     
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                        <td class="Preço Unitário"> R$ 50,00</td>
+                        <td class="Preço Total"> R$ 50,00</td>
+                        <td>
+                            <button class="remover-produto">Remover</button>
+                    </td>    
+                </tr>
+                <tr>
+                    <td>Produto Exemplo 1</td>     
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                        <td class="Preço Unitário"> R$ 60,00</td>
+                        <td class="Preço Total"> R$ 60,00</td>
+                        <td>
+                            <button class="remover-produto">Remover</button>
+                    </td>    
+                </tr>
+            </tbody>
+        </table>
+        <div class="total-final">
+        <h3>Total final: <span id="total-final">R$ 110,00</span></h3>
+        </div>
+    </section>
+ </main>
+ <script src="carrinho.js"></script>
+</body>
+</html>
